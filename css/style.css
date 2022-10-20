@@ -1,0 +1,145 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    color:#fff;
+    height:100%;
+    
+
+}
+.container{
+    max-width: 480px;
+    margin:0 auto;
+    background-color: #313438;
+    min-height:100vh;
+    
+
+}
+
+.back-button{
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+.add {
+    font-size: 80px;
+    margin: auto 190px;
+
+}
+
+.contact{
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    padding: 2em 0;
+} 
+
+.contact-person{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+i{
+    font-size: 1.5em;
+}
+.contact-name{
+    font-size: 1.2em;
+}
+.contact-info{
+    padding: 3em 1.5em;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.info-line{
+    display:flex;
+    width:90%;
+    margin:0 auto;
+    align-items: center;
+    padding:1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #2a2c30,
+             -20px -20px 60px #383c40;
+}
+
+p{
+    margin: 0;
+    padding-left: 2em;
+}
+.icon{
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    border-radius: 100px;
+    padding: 0.5em;
+}
+#location{
+    padding: 0.5em 0.6em;
+}
+
+.edit-contact{
+    padding: 1.5em 3.5em;
+    margin-right: 5px;
+    
+}
+
+
+h1{
+    text-align: center;
+}
+.type{
+    border:none;
+    background: none;
+    padding-left: 1.2em;
+    outline: none;
+    color: fff;
+    font-size: 1.2em;
+}
+
+.info-line1{
+    display:flex;
+    width:90%;
+    margin:0 auto;
+    align-items: center;
+    padding:1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #2a2c30,
+             -20px -20px 60px #383c40;
+}
+
+.info-action{
+    padding: 2em 3.5em;
+}
+
+.save-contact{
+    display:flex;
+    width: 90%;
+    margin:0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #2a2c30,
+             -20px -20px 60px #383c40;
+
+}
+.cancel{
+    display:flex;
+    width: 90%;
+    margin:0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #2a2c30,
+             -20px -20px 60px #383c40;
+
+}
+.button{
+    border:none;
+    font-size: 1.3em;
+    padding-left: 1.5em;
+    outline: none;
+    color:#fff;
+    background: none;
+}
